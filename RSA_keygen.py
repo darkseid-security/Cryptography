@@ -10,7 +10,7 @@ key_length = 4096
 print(Fore.RED + """
 ┳┓┏┓┏┓  ┓┏┓┏┓┓┏┏┓┏┓┳┓
 ┣┫┗┓┣┫  ┃┫ ┣ ┗┫┃┓┣ ┃┃
-┛┗┗┛┛┗  ┛┗┛┗┛┗┛┗┛┗┛┛┗ """ + Fore.WHITE + "Generate RSA Keys V1.0 " + Fore.YELLOW + "Developed by Sovereign Hacking Team" + Fore.RESET)
+┛┗┗┛┛┗  ┛┗┛┗┛┗┛┗┛┗┛┛┗ """ + Fore.WHITE + "Generate RSA Keys V1.0 Developed by" + Fore.GREEN + "ENVY IT GROUP" + Fore.RESET)
 
 print(Fore.BLUE + "[*]" + Fore.WHITE + f" Key Size: {key_length} Bits" + Fore.RESET)
 
