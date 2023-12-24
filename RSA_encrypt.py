@@ -33,8 +33,8 @@ print("Message: " + Fore.WHITE + plaintext.decode() + Fore.RESET)
 ciphertext = loaded_public_key.encrypt(
     plaintext,
     padding.OAEP(
-        mgf=padding.MGF1(algorithm=hashes.SHA512()),
-        algorithm=hashes.SHA512(),
+        mgf=padding.MGF1(algorithm=hashes.SHA256()),
+        algorithm=hashes.SHA256(),
         label=None
     )
 )
