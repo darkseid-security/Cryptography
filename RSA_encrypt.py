@@ -8,7 +8,7 @@ import sys
 print(Fore.RED + """
 ┳┓┏┓┏┓  ┏┓┳┓┏┓┳┓┓┏┏┓┏┳┓┏┓┳┓
 ┣┫┗┓┣┫  ┣ ┃┃┃ ┣┫┗┫┃┃ ┃ ┣ ┣┫
-┛┗┗┛┛┗  ┗┛┛┗┗┛┛┗┗┛┣┛ ┻ ┗┛┛┗ """ + Fore.WHITE + "Encrypt Messages with RSA V1.0 Developed by " + Fore.GREEN + "ENVY IT GROUP" + Fore.RESET)
+┛┗┗┛┛┗  ┗┛┛┗┗┛┛┗┗┛┣┛ ┻ ┗┛┛┗ """ + Fore.WHITE + "Encrypt Messages with RSA V1.0 Developed by " + " \033[38;5;208mThe Intrusion Team\033[0m" + Fore.RESET)
 
 def load_public_key_from_file(filename):
     with open(filename, "rb") as key_file:
