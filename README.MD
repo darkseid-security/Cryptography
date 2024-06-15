@@ -11,7 +11,7 @@ RSA Encrypter
 - RSA_keygem.py
 
 # Config
- - Change plaintext variable to text that you want to encrypt in RSA_encrypt.py
- - Change ciphertext variable in RSA_decrypt.py to RSA encrypted value
- - Generate public/private key pairs with RSA_keygen.py
+ - RSA_encrypt.py --plaintext [message to encrypt]
+ - RSA_decrypt.py --decrypt_message base64 encoded message
+ - Generate public/private key pairs with RSA_keygen.py --keylength 4096
  - Must have certs in same dir to encrypt/decrypt
